@@ -11,9 +11,6 @@ on:
       - "starter/ContosoDentistryChatBot/**"
   workflow_dispatch:
 
-  env:
-  AZURE_WEBAPP_PACKAGE_PATH: "starter/ContosoDentistryChatBot/"
-
 jobs:
   build:
     runs-on: windows-latest
